@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eid Mubarak</title>
+    <title>Eid UL Adha Mubarak</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -589,8 +589,8 @@
     </div>
 
     <!-- Custom cursor -->
-    <div class="custom-cursor" id="customCursor"></div>
-    <div class="inner-cursor" id="innerCursor"></div>
+  <!--  <div class="custom-cursor" id="customCursor"></div>
+    <div class="inner-cursor" id="innerCursor"></div> -->
 
     <!-- Background canvas -->
     <canvas id="bgCanvas"></canvas>
@@ -599,16 +599,13 @@
     <button class="music-btn" id="musicBtn">♪</button>
 
     <!-- Main content -->
-    function showGreeting() {
-      var name = document.getElementById("nameInput").value;
     <div class="container">
       <div class="neon-frame"></div>
-      <h1 class="text-glitch" data-text="Eid Mubarak!" + name >
-        Eid Mubarak, + name
+      <h1 class="text-glitch" data-text="Eid Mubarak, My Dear Friends!">
+        Eid Mubarak, My Dear Friends!
       </h1>
-      document.getElementById("greetingText").innerText = message;
       <p class="subtitle">
-        May this Eid bring joy, peace, and blessings to your heart 💖
+        May this Eid fill your life with peace, prosperity, and endless happiness. May Allah accept all your prayers and bless you with His mercy. Spend this beautiful day with love in your heart and smiles all around. Wishing you and your family a joyful and memorable Eid. Stay blessed always! 💖🌙✨
       </p>
 
       <div class="btn-container">
@@ -636,7 +633,7 @@
 
       <!-- Polaroid photo -->
       <div class="polaroid" id="polaroid">
-        <p>Wishing you love, light, and laughter 🌙✨</p>
+        <p>Wishing you a joyful Eid filled with love, laughter, and unforgettable moments. Eid Mubarak! 🖤🌙✨</p>
       </div>
     </div>
 
@@ -648,14 +645,14 @@
       <div class="modal-content animate__animated animate__fadeIn">
         <button class="close-modal" id="closeModal">×</button>
         <h2>Before your Eid surprise...</h2>
-        <p>Tell me your name, 💫</p>
+        <p>Tell me your name, dear 💫</p>
         <input
           type="text"
           class="modal-input"
           id="nameInput"
           placeholder="Enter your name..."
         />
-        <button class="modal-btn" id="submitName">Enter</button>
+        <button class="modal-btn" id="submitName">Let’s Begin</button>
       </div>
     </div>
 
@@ -740,11 +737,4 @@
             customCursor.style.boxShadow = "0 0 15px #00ffe0";
             innerCursor.style.background = "#00ffe0";
           });
-        });
-
-        // Create audio context and element
-        let audio = new Audio();
-
-        // Simulate loading
-        setTimeout(() => {
-          loadingOverlay.style.op
+  
